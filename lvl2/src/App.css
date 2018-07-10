@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.header{
+  background-color: #BC9CB0;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin-top: 0;
+  padding-top: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type='file']::-webkit-file-upload-button{
+  padding: 10px 20px;
+  margin: 30px 0 0 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #34495e;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.uploadFile{
+  margin-top: 5px;
+  margin-left: 20px;
+  height: 35px;
+  width: auto;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #34495e;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.uploadFile:hover {
+  background-color: #BC9CB0;
+  cursor: pointer;
+}
